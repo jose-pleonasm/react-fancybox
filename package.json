@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "react": "^16.2.0",
-    "react-addons-css-transition-group": "^15.6.2"
+    "react-dom": "^16.2.0",
+    "styled-jsx": "^2.2.6"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -24,8 +25,6 @@
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
-    "prop-types": "^15.6.1",
-    "react-dom": "^16.2.0",
     "react-scripts": "1.1.1"
   },
   "files": [
