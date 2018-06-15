@@ -1,7 +1,7 @@
 {
   "name": "react-fancybox",
   "version": "0.2.2",
-  "main": "./lib/App.js",
+  "main": "./lib/index.js",
   "author": "Giang Le",
   "repository": {
     "type": "git",

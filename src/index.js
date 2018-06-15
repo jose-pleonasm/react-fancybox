@@ -122,10 +122,6 @@ export class Fancybox extends Component {
 			showCloseBtn = defaultProps.showCloseBtn,
 		} = this.props;
 
-		const imageStyle = {
-			maxHeight: window.innerHeight * 0.7
-		}
-
 		return (
 			<div className="react-fancybox">
 				{this.renderThumbnail()}
@@ -138,7 +134,7 @@ export class Fancybox extends Component {
 										<img src={closeImgSrc} alt="close" />
 									</button>
 								)}
-								<img style={imageStyle} src={image} alt="original" />
+								<img src={image} alt="original" />
 								{caption &&
 									<div className="caption">{caption}</div>
 								}
